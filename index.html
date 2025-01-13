@@ -55,7 +55,7 @@
 </head>
 <body>
     <div class="logo-container">
-        <img src="./models/2deep.png" alt="MeNoClone Logo" class="logo"> <!-- Replace with your logo path -->
+        <img src="./models/2deep.png" alt="MeNoClone Logo" class="logo"> 
         <hr>
         <h1 class="text-white">MENOCLONE</h1>
         <!-- Please don't copy my shyt... unless you plan to make money with me. 1/12/2025 - odot! -->
@@ -63,7 +63,7 @@
         
     </div>
 
-    <button id="ar-button" class="btn btn-outline-light animate__animated animate__shakeY">ACTIVATE REALM</button>
+    <button id="ar-button" class="btn btn-outline-light animate__animated animate__shakeY .5s">ACTIVATE REALM</button>
     <canvas id="canvas"></canvas>
 
     <script src="https://cdn.jsdelivr.net/npm/three@0.137.0/build/three.min.js"></script>
@@ -73,7 +73,7 @@
 
     <script>
         let scene, camera, renderer, controller;
-        const modelPath = './models/ufo%20tee.gltf'; // Replace with your GLTF model URL
+        const modelPath = './models/ufo%20tee.gltf'; // gltf
 
         document.getElementById('ar-button').addEventListener('click', async () => {
             if (navigator.xr) {
